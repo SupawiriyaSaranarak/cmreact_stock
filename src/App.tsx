@@ -91,6 +91,8 @@ export default function PersistentDrawerLeft() {
   const handleDrawerClose = () => {
     setOpen(false);
   };
+  
+  const x = "345";
 
   return (
     <Box sx={{ display: "flex" }}>
